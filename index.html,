@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte, Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container header-flex">
+            <div class="logo">Agro<span>Sustentável</span></div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#pilares">Os Pilares</a></li>
+                    <li><a href="#sustentabilidade">Sustentabilidade</a></li>
+                    <li><a href="#impacto">Nosso Impacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Agro Forte, Futuro Sustentável</h1>
+            <p>O equilíbrio perfeito entre a potência da produção e a preservação do meio ambiente.</p>
+            <a href="#pilares" class="btn">Saiba Mais</a>
+        </div>
+    </section>
+
+    <section id="pilares" class="py-5">
+        <div class="container">
+            <h2 class="section-title">A Força da Nossa Produção</h2>
+            <p class="section-subtitle">Duas forças que se complementam para alimentar o mundo e proteger o planeta.</p>
+            
+            <div class="grid-2">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1592982537447-744077110b93?auto=format&fit=crop&q=80&w=600" alt="Tecnologia no Agronegócio">
+                    <div class="card-body">
+                        <h3>A Potência do Agronegócio</h3>
+                        <p>O agronegócio traz a força da tecnologia de ponta, alta produtividade em larga escala e a capacidade de abastecer mercados globais. Com investimentos em agricultura de precisão, otimiza o uso de recursos como água e fertilizantes, reduzindo o impacto ambiental por tonelada produzida.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1595855759920-86582396756a?auto=format&fit=crop&q=80&w=600" alt="Agricultura Familiar">
+                    <div class="card-body">
+                        <h3>A Essência da Agricultura Familiar</h3>
+                        <p>A agricultura familiar é a base da segurança alimentar, responsável pela maior parte dos alimentos que chegam à mesa dos cidadãos. Ela preserva a biodiversidade local, promove o desenvolvimento socioeconômico regional e utiliza práticas tradicionais que respeitam os ciclos da natureza.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sustentabilidade" class="bg-light py-5">
+        <div class="container">
+            <h2 class="section-title">O Equilíbrio Sustentável</h2>
+            <div class="grid-2 alignment-center">
+                <div>
+                    <img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&q=80&w=600" alt="Plantação verdejante e sustentável" class="img-responsive">
+                </div>
+                <div>
+                    <h3>Inovação Verde no Campo</h3>
+                    <p>Produzir mais sem desmatar é o grande objetivo do agro moderno. Através de práticas inovadoras, o Brasil se destaca no cenário mundial mostrando que produtividade e preservação caminham juntas.</p>
+                    <ul class="list-checked">
+                        <li><strong>Plantio Direto:</strong> Protege o solo e evita a erosão.</li>
+                        <li><strong>Integração Lavoura-Pecuária-Floresta (ILPF):</strong> Otimiza a terra e sequestra carbono.</li>
+                        <li><strong>Bioinsumos:</strong> Redução do uso de defensivos químicos através do controle biológico.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="impacto" class="py-5 bg-dark text-white text-center">
+        <div class="container">
+            <h2>O Impacto das Práticas Sustentáveis</h2>
+            <p>Números estimados que crescem a cada segundo graças às novas tecnologias no campo:</p>
+            
+            <div class="counter-container">
+                <div class="counter-box">
+                    <span id="co2-counter" class="counter-number">0</span>
+                    <p>Quilos de CO₂ sequestrados hoje</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container text-center">
+            <p>&copy; 2026 Agro Sustentável. Desenvolvido para um futuro melhor.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
